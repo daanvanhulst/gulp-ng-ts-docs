@@ -17,7 +17,7 @@ function process(content, file, section, options) {
     processJsFile(content, file, section, options).forEach(function(doc) {
       exports.docs.push(doc);
     });
-  } else if (/\.js$/.test(file)) {
+  } else if (/\.ts$/.test(file)) {
     processJsFile(content, file, section, options).forEach(function(doc) {
       exports.docs.push(doc);
     });

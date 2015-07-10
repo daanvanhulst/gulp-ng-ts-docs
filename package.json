@@ -1,16 +1,17 @@
 {
-  "name": "gulp-ngdocs",
+  "name": "gulp-ng-ts-docs",
   "version": "0.2.13",
-  "author": "nikhilmodak",
+  "author": "Daan van Hulst",
   "description": "gulp plugin for angularjs documentation",
   "main": "index",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nikhilmodak/gulp-ngdocs.git"
+    "url": "https://github.com/daanvanhulst/gulp-ng-ts-docs"
   },
   "keywords": [
     "gulpplugin",
     "angular",
+	"typescript",
     "gulp",
     "ngdocs",
     "documention"
