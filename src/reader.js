@@ -17,6 +17,10 @@ function process(content, file, section, options) {
     processJsFile(content, file, section, options).forEach(function(doc) {
       exports.docs.push(doc);
     });
+  } else if (/\.js$/.test(file)) {
+    processJsFile(content, file, section, options).forEach(function(doc) {
+      exports.docs.push(doc);
+    });
   } else if (file.match(/\.ngdoc$/)) {
     var header = '@section ' + section + '\n';
     exports.docs.push(new ngdoc.Doc(header + content.toString(),file, 1, options).parse());

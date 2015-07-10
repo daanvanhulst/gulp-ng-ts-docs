@@ -1,6 +1,8 @@
 gulp-ngdocs
 ===========
 
+This is a fork of nikhilmodak's ngdocs (https://github.com/nikhilmodak/gulp-ngdocs). I did not write any of this code, just added one if statement that makes sure this plugin also checks TypeScript files.
+
 Gulp plugin for building [AngularJS](http://docs.angularjs.org) like documentation. This is inspired from [grunt-ngdocs](https://www.npmjs.org/package/grunt-ngdocs).
 
 ##Setup
